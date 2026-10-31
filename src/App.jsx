@@ -1,5 +1,6 @@
 import BookCard from "./components/BookCard/BookCard.jsx";
 import books from "../data.json";
+import "./App.css";
 
 function App() {
   return (
