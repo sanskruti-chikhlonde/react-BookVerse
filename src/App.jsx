@@ -1,6 +1,5 @@
 import BookCard from "./components/BookCard/BookCard.jsx";
-
-import "./components/BookCard/BookCard";
+import books from "../data.json";
 
 function App() {
   return (
@@ -8,15 +7,19 @@ function App() {
       <h1>BookVerse</h1>
       <p>A collection of stories worth exploring.</p>
 
+    <div className="book-grid">
+      {books.map((book, index) => (
       <BookCard
-        title="Atomic Habits"
-        author="James Clear"
-        price={499}
-        image="https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg"
+        key={index}
+        title={book.title}
+        author={book.author}
+        price={book.price}
+        image={book.image}
       />
-
+))}
     </div>
-  );
+  </div>
+);
 }
 
 export default App;
