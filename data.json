@@ -10,30 +10,35 @@
     "title": "The Alchemist",
     "author": "Paulo Coelho",
     "price": 399,
-    "image": "https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg",
+    "category": "Fiction"
   },
   {
     "title": "Ikigai",
     "author": "Héctor García & Francesc Miralles",
     "price": 350,
-    "image": "https://images-na.ssl-images-amazon.com/images/I/81l3rZK4lnL.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81l3rZK4lnL.jpg",
+    "category": "Personal Growth"
   },
   {
     "title": "The Psychology of Money",
     "author": "Morgan Housel",
     "price": 450,
-    "image": "https://images-na.ssl-images-amazon.com/images/I/71g2ednj0JL.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71g2ednj0JL.jpg",
+    "category": "Finance"
   },
   {
     "title": "The Silent Patient",
     "author": "Alex Michaelides",
     "price": 399,
-    "image": "https://images-na.ssl-images-amazon.com/images/I/91lslnZ-btL.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/I/91lslnZ-btL.jpg",
+    "category": "Thriller"
   },
   {
     "title": "The Book Thief",
     "author": "Markus Zusak",
     "price": 499,
-    "image": "https://images-na.ssl-images-amazon.com/images/I/914cHl9v7oL.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/I/914cHl9v7oL.jpg",
+    "category": "Historical Fiction"
   }
 ]
