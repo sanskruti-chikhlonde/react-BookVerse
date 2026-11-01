@@ -16,6 +16,7 @@ function App() {
         author={book.author}
         price={book.price}
         image={book.image}
+        category={book.category}
       />
 ))}
     </div>
